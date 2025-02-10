@@ -1,9 +1,10 @@
 import React from 'react'
-import Navbar from '../views/navbar/Navbar'
+import HeroSection from '../views/heroSection/HeroSection'
+
 function page() {
   return (
     <div>
-      <Navbar/>
+     <HeroSection/>
     </div>
   )
 }

@@ -1,0 +1,32 @@
+{
+    "brand": {
+     
+    
+      "description": "Pirate ipsum arrgh bounty warp jack. Jones' road spyglass hands nipperkin o'nine ipsum bounty spanish yellow. Seas tails the prey hogshead crack. Lanyard ballast mutiny rat halter. Round tea yellow pirate corsair lugsail clipper tea reef gabion. Pay tails spirits."
+    },
+    "socialLinks": [
+      { "icon": "/svg/footer/fb.svg", "alt": "Facebook" },
+      { "icon": "/svg/footer/p.svg", "alt": "Preset" },
+      { "icon": "/svg/footer/instra.svg", "alt": "Instagram" },
+      { "icon": "/svg/footer/ticktock.svg", "alt": "Tiktok" },
+      { "icon": "/svg/footer/yo.svg", "alt": "Youtube" }
+    ],
+    "services": [
+      "Tiny explorers club",
+      "Artistic spouts studio",
+      "Curiosity corner",
+      "Family connect session",
+      "Health heroes"
+    ],
+    "info": [
+      "Blogs",
+      "Terms and conditions",
+      "Privacy policy"
+    ],
+    "contact": [
+      { "icon": "/svg/footer/location.svg", "text": "DHA Phase 4, Street 12" },
+      { "icon": "svg/footer/mail.svg", "text": "info@tinytribe.com" },
+      { "icon": "svg/footer/phone.svg", "text": "(425) 403-6202" }
+    ]
+  }
+  

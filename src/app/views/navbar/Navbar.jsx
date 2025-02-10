@@ -43,7 +43,7 @@ const Navbar = () => {
               <MenuItem key={item.label} label={item.label} enabled={item.enabled} />
             ))}
           </ul>
-          <Button text='Enroll now' className='bg-[#FF6666] text-[#FFFFFF] w-full py-2 mt-4' />
+          <Button text='Enroll now' className='bg-[#FF6666] text-[#FFFFFF] ' />
         </div>
       )}
     </header>

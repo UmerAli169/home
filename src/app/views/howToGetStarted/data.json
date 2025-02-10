@@ -1,0 +1,34 @@
+{
+  "title": "How to get started?",
+  "description": "Follow these simple steps to begin.",
+  "steps": [
+    {
+      "id": "01",
+      "title": "Open site",
+      "description": "Open our website on your browser.",
+      "icon": "/svg/howTogetStart/1.svg",
+      "color": "purple"
+    },
+    {
+      "id": "02",
+      "title": "Click on",
+      "description": "Click on the 'Get Started' button.",
+      "icon": "/icons/click.svg",
+      "color": "red"
+    },
+    {
+      "id": "03",
+      "title": "Click Confirm",
+      "description": "Confirm your selection.",
+      "icon": "/icons/confirm.svg",
+      "color": "green"
+    },
+    {
+      "id": "04",
+      "title": "Wait",
+      "description": "Wait for the app to open and enter your details.",
+      "icon": "/icons/wait.svg",
+      "color": "gray"
+    }
+  ]
+}

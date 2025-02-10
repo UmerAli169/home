@@ -1,0 +1,30 @@
+{
+  "title": "Our Blogs",
+  "description": "Stay updated with our latest activities and insights.",
+  "blogs": [
+    {
+      "id": "1",
+      "title": "The master class",
+      "description": "A fun club for young kids to explore, play, and learn.",
+      "image": "/BlogCards/1.png",
+      "category": "Kids",
+      "date": "Jan 20, 2025"
+    },
+    {
+      "id": "2",
+      "title": "The master class",
+      "description": "A fun club for young kids to explore, play, and learn.",
+      "image": "/BlogCards/2.jpg",
+      "category": "Learning",
+      "date": "Feb 05, 2025"
+    },
+    {
+      "id": "3",
+      "title": "The master class",
+      "description": "A fun club for young kids to explore, play, and learn.",
+      "image": "/BlogCards/3.jpg",
+      "category": "Social",
+      "date": "Mar 10, 2025"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Our events",
+  "description": "Pirate ipsum arrgh bounty warp jack. Main shrouds round jack sink dock arr line gaff tea. Arr tea rum crimp gold yer jib sloop jib. Spanish anchor road furl.",
+  "events": [
+    {
+      "title": "The Master Class",
+      "description": "A fun club for young kids to explore, play, and learn.",
+      "image": "/EventsSection/1.png",
+      "tag": "Education"
+    },
+    {
+      "title": "Storytelling Festival",
+      "description": "A fun club for young kids to explore, play, and learn.",
+      "image": "/EventsSection/2.png",
+      "tag": "Creativity"
+    },
+    {
+      "title": "International Day",
+      "description": "A fun club for young kids to explore, play, and learn.",
+      "image": "/EventsSection/3.png",
+      "tag": "Culture"
+    }
+  ]
+}

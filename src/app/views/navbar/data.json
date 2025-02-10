@@ -1,0 +1,20 @@
+{
+  "menuItems": [
+    {
+      "label": "Home",
+      "enabled": true
+    },
+    {
+      "label": "Classes",
+      "enabled": false
+    },
+    {
+      "label": "Blogs",
+      "enabled": false
+    },
+    {
+      "label": "Contact",
+      "enabled": false
+    }
+  ]
+}

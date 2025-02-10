@@ -1,0 +1,18 @@
+[
+    {
+      "icon": "/svg/features/rocket.svg",
+      "title": "Holistic Development",
+      "description": "Elit quam cras sollicitudin ridiculus commodo a eget. Quisque magna tempus urna lectus. Nec tortor, vehicula nunc, duis orci. Nunc urna."
+    },
+    {
+      "icon": "/svg/features/people.svg",
+      "title": "Social Learning",
+      "description": "Elit quam cras sollicitudin ridiculus commodo a eget. Quisque magna tempus urna lectus. Nec tortor, vehicula nunc, duis orci. Nunc urna."
+    },
+    {
+      "icon": "/svg/features/baby.svg",
+      "title": "Play-based Learning",
+      "description": "Elit quam cras sollicitudin ridiculus commodo a eget. Quisque magna tempus urna lectus. Nec tortor, vehicula nunc, duis orci. Nunc urna."
+    }
+  ]
+  

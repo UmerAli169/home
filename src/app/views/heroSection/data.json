@@ -1,0 +1,25 @@
+{
+    "cards": [
+      {
+        "icon": "/svg/herosection/cards/1.svg",
+        "title": "Focused",
+        "description": "Pirate ipsum arrgh bounty warp jack. Blimey arr heave.."
+      },
+      {
+        "icon": "/svg/herosection/cards/2.svg",
+        "title": "Creativity",
+        "description": "Pirate ipsum arrgh bounty warp jack. Blimey arr heave.."
+      },
+      {
+        "icon": "/svg/herosection/cards/3.svg",
+        "title": "Problem Solving",
+        "description": "Pirate ipsum arrgh bounty warp jack. Blimey arr heave.."
+      },
+      {
+        "icon": "/svg/herosection/cards/4.svg",
+        "title": "Leadership",
+        "description": "Pirate ipsum arrgh bounty warp jack. Blimey arr heave.."
+      }
+    ]
+  }
+  

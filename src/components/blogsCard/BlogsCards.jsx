@@ -1,6 +1,6 @@
 const BlogCard = ({ title, description, image, category, date }) => {
     return (
-      <div className="bg-white rounded-lg  overflow-hidden">
+      <div className="bg-white rounded-lg w-full">
         <img src={image} alt={title} className="w-full h-52 object-cover" />
         <div className="p-4 text-left">
           <span className="text-sm text-gray-500">

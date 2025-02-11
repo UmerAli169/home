@@ -13,7 +13,7 @@ import WhyTinyTribe from '../views/whyTinyTribe/WhyTinyTribe';
 function page() {
   return (
     <div>
-      {/* <HeroSection />
+      <HeroSection />
       <Features />
       <HolisticGrowth />
       <LearningSection />
@@ -22,7 +22,7 @@ function page() {
       <BlogSection />
       <GallerySection />
       <ContactForm />
-      <WhyTinyTribe /> */}
+      <WhyTinyTribe />
     </div>
   );
 }

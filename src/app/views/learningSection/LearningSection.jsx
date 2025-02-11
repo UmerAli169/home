@@ -6,8 +6,8 @@ import Wrapper from '../../../components/Wrapper';
 const LearningSection = () => {
   return (
     <Wrapper>
-      <section className='lg:py-[120px] py-[48px] flex justify-center'>
-        <div className='flex flex-col lg:flex-row     '>
+      <section className='lg:py-[120px] py-[48px] flex justify-center items-center'>
+        <div className='flex flex-col lg:flex-row   items-center sm:items-start   '>
           <div className='hidden max-w-[379px] lg:flex flex-col gap-2 w-full lg:w-1/3 '>
             {learningData.images.map((image, index) => (
               <img
@@ -19,7 +19,7 @@ const LearningSection = () => {
             ))}
           </div>
 
-          <div className='w-full max-w-[481px]  p-4'>
+          <div className='w-full flex flex-col items-start justify-start p-4 max-w-[452px]'>
             <p className='lg:text-[46px] lg:leading-[58px] text-[24px] leading-[30px] font-semibold lg:font-normal font-lora text-[#212121]'>
               {learningData.title}
             </p>
@@ -36,7 +36,7 @@ const LearningSection = () => {
             </div>
           </div>
 
-          <div className='w-full lg:w-1/3 max-w-[322px] flex flex-col gap-6  '>
+          <div className='w-full lg:w-1/3 w-full sm:max-w-[322px] flex flex-col gap-6  '>
             <div className='bg-[#E1F6FF] p-4 rounded-lg shadow-md'>
               <h3 className='text-lg font-semibold mb-2'>Next Class</h3>
               {Object.entries(learningData.schedule).map(([day, time]) => (

@@ -11,7 +11,7 @@ const ActivityCard = ({ title, description, ageRange, duration, image }) => {
           <Button variant="secondary">Ages {ageRange}</Button>
           <Button>{duration}</Button>
         </div>
-        <p className='lg:text-[20px] lg:leading-[36px] text-[16px] leading-[20px] font-bold  font-lora text-[#322F37]'>
+        <p className='lg:text-[20px] lg:leading-[36px] text-[16px] leading-[20px] font-semibold  font-lora text-[#322F37]'>
         {title}</p>
         <p className="text-gray-600 text-sm">{description}</p>
       </div>

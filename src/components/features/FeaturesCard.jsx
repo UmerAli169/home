@@ -1,22 +1,25 @@
-import React from "react";
+import React from 'react';
 
-const HeroCard = ({ icon, title, description, className = "" }) => {
+const HeroCard = ({ icon, title, description, className = '' }) => {
   return (
-    <div
-      className={`flex flex-col p-4 sm:px-8 sm:pt-8 sm:pb-4 gap-4 sm:gap-[33px] items-start ${className}`}
-    >
-      <div className="">
-        <img src={icon} alt={title} className="w-[40px] h-[40px]" />
+    <div className={`w-full flex flex-col lg:p-[30px] px-4  py-[30px]   ${className}`}>
+        <div>
+          <img src={icon} alt={title} className='lg:w-[100px] lg:h-[100px] w-[85px] h-[85px]' />
+        </div>
+        <div className=' flex flex-col items-start justify-start'>
+        
+            <p className='lg:text-[20px] lg:leading-[30px] text-[18px] leading-[27px] font-bold  font-Poppins text-[#322F37]'>
+              {title}
+            </p>
+      
+    
+            <p className='text-left lg:leading-[21px] text-[12px] leading-[18px] font-normal text-[#858585]'>
+              {description}
+            </p>
+          
+        </div>
       </div>
-      <div className=" flex flex-col items-start justify-start">
-        <p className="lg:text-[24px] lg:leading-[30px] text-[16px] leading-[30px] font-medium text-[#232323]">
-          {title}
-        </p>
-        <p className="lg:text-[14px] text-left lg:leading-[21px] text-[12px] leading-[18px] font-normal text-[#9AA0A6]">
-          {description}
-        </p>
-      </div>
-    </div>
+ 
   );
 };
 

@@ -1,11 +1,22 @@
 import React from "react";
 import stepsData from "./data.json";
+import Wrapper from '../../../components/Wrapper';
 
 const HowToGetStarted = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-12 text-center">
-      <h2 className="text-3xl font-bold text-gray-900">{stepsData.title}</h2>
-      <p className="text-gray-600 mt-4">{stepsData.description}</p>
+    <section className=" mx-auto lg:py-[120px] text-centre py-[48px] bg-[#F4FCFF] text-center ">
+      <Wrapper>
+        <div >
+
+        
+        <div className="text-center max-w-[683px] mx-auto ">
+            <p className="lg:text-[32px] lg:leading-[40.8px] text-[24px] leading-[30px] lg:font-normal font-medium font-lora text-[#212121]">
+            {stepsData.title}
+            </p>
+            <p className="lg:text-[18px] lg:leading-[27.5px] text-[14px] leading-[21px] font-normal font-poppins text-[#707070]">
+            {stepsData.description}            </p>
+          </div>
+     
 
       <div className="flex flex-wrap justify-center items-center gap-8 mt-8">
         {stepsData.steps.map((step, index) => (
@@ -21,7 +32,7 @@ const HowToGetStarted = () => {
             <p className="text-gray-600 text-sm mt-1">{step.description}</p>
           </div>
         ))}
-      </div>
+      </div></div></Wrapper>
     </section>
   );
 };

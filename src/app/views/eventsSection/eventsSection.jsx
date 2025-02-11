@@ -1,29 +1,32 @@
-import React from "react";
-import eventsData from "./data.json";
+import eventsData from './data.json';
+import EventCard from '../../../components/eventsSection/EventsSection';
+import Wrapper from '../../../components/Wrapper';
 
 const EventsSection = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-12 text-center">
-      <h2 className="text-3xl font-bold text-gray-900">{eventsData.title}</h2>
-      <p className="text-gray-600 mt-4">{eventsData.description}</p>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
-        {eventsData.events.map((event, index) => (
-          <div key={index} className="bg-white p-4 rounded-lg shadow-md">
-            <img
-              src={event.image}
-              alt={event.title}
-              className="w-full h-[180px] object-cover rounded-lg"
-            />
-            <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full inline-block mt-4">
-              {event.tag}
-            </span>
-            <h3 className="text-lg font-semibold mt-2">{event.title}</h3>
-            <p className="text-gray-600 text-sm mt-1">{event.description}</p>
+    <div className="mx-auto ">
+  
+      <Wrapper>
+        
+        <div className="lg:py-[120px] text-centre py-[48px] ">
+          
+        <div className="text-center max-w-[683px] mx-auto">
+            <p className="lg:text-[32px] lg:leading-[40.8px] text-[24px] leading-[30px] lg:font-normal font-medium font-lora text-[#212121]">
+              Our events
+            </p>
+            <p className="lg:text-[18px] lg:leading-[27.5px] text-[14px] leading-[21px] font-normal font-poppins text-[#707070]">
+              Pirate ipsum arrgh bounty warp jack. Main shrouds round jack sink dock arr line gaff tea. Arr tea rum crimp gold yer jib sloop jib. Spanish anchor road furl.
+            </p>
           </div>
-        ))}
-      </div>
-    </section>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(380px,1fr))] gap-6 lg:py-[40px]">
+          {eventsData.events.map((event, index) => (
+              <EventCard key={index} {...event} />
+            ))}
+          </div>
+        </div>
+        
+      </Wrapper>
+    </div>
   );
 };
 

@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import Button from '../../../components/navbar/Button';
+import Button from '../../../components/shared/Button';
 import MenuItem from '../../../components/navbar/MenuItems';
 import data from './data.json';
 

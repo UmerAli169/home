@@ -1,9 +1,8 @@
 'use client';
 import React from 'react';
 import HeroCard from '../../../components/heroSection/HeroCard';
-import Wrapper from '../../../components/Wrapper';
 import heroData from './data.json';
-import Button from '../../../components/navbar/Button';
+import Button from '../../../components/shared/Button';
 import { useEffect, useRef } from 'react';
 
 const Hero = () => {
@@ -38,15 +37,15 @@ const Hero = () => {
   }, []);
   return (
     <section className=' relative max-h-[791px] h-full flex flex-col   text-center py-[38px] bg-[#FFF7F7] overflow-hidden font-lora'>
-     <div>
+     {/* <div>
      <img src='/svg/herosection/girtsPic.svg' alt='Girl' className='xl:ml-[20%] lg:ml-[18%] md:ml-[15%] sm:ml-[12%] ml-[5%]' />
       <img src='/svg/herosection/star2.svg' alt='Star'  className=' xl:ml-[20%] lg:ml-[18%] md:ml-[15%] sm:ml-[12%] ml-[5%] top-[200px] left-[630px] w-[40px] h-[40px]' />
       <img src='/svg/herosection/star.svg' alt='Star' className='xl:right-[320px]  top-[160px] right-[30px]  sm:right-[10px] absolute md:right-[50px] lg:right-[150px] w-[40px] h-[40px]' />
       <img src='/svg/herosection/arrow.svg' alt='Arrow' className='absolute right-[520px] top-[327px] w-[183.01px] h-[196px]' />
-     </div>
+     </div> */}
 
-      <Wrapper>
-        <div className='flex flex-col items-center justify-center text-center '>
+
+        <div className='flex flex-col items-center justify-center text-center  ] overflow-hidden'>
           <div className='flex flex-col items-center justify-center text-center  max-w-[880px]  '>
             <p className='lg:text-[60px] lg:leading-[76.8px] text-[24px] leading-[30px]  font-semibold  text-[#212121]'>
               Every child shines bright in the spotlight of learning
@@ -73,7 +72,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </Wrapper>
     </section>
   );
 };

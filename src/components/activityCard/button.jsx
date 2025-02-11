@@ -1,8 +1,10 @@
-const PrimaryButton = ({ children, variant = "primary" }) => {
-  const baseStyles = "px-4 py-1 rounded-full text-sm font-medium";
+  const PrimaryButton = ({ children, variant = "primary" }) => {
+  const baseStyles = "lg:px-[18px] lg:py-[3px] px-[12px] py-[4px] rounded-[43px] text-[#FFFFFF] lg:font-[12px] font-[8px] font-poppins lg:font-semibold font-normal";
   const variants = {
-    primary: "bg-blue-500 text-white",
-    secondary: "bg-red-500 text-white",
+    secondary: "bg-[#FF6666]",
+   primary: "bg-[#00A4EA]",
+   tertiary: "bg-[#31C192]", 
+
   };
 
   return (

@@ -1,7 +1,7 @@
 [
   {
     "title": "Tiny explorers club",
-    "description": "A fun club for young kids to explore, play, and learn",
+    "description": "A fun club for young kids to explore, play, and learn ",
     "ageRange": "2-3",
     "duration": "1-2 hours",
     "image": "/ActivityCard/1.png"
@@ -11,7 +11,7 @@
     "description": "A creative space for kids to explore, create",
     "ageRange": "2-3",
     "duration": "1.5 hours",
-    "image": "/ActivityCard/2.png"
+    "image": "/ActivityCard/1.png"
   },
   {
     "title": "Curiosity corner",
@@ -22,7 +22,7 @@
   },
   {
     "title": "Family connect session",
-    "description": "A fun club for young kids to explore, play, and learn",
+    "description": "A fun club for young kids to explore, play, and learn ",
     "ageRange": "2-3",
     "duration": "1 hour",
     "image": "/ActivityCard/4.png"
@@ -32,7 +32,7 @@
     "description": "A creative space for kids to explore, create",
     "ageRange": "2-3",
     "duration": "1 hour",
-    "image": "/ActivityCard/5.png"
+    "image": "/ActivityCard/4.png"
   },
   {
     "title": "Health heroes",

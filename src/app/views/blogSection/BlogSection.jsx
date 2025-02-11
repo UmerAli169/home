@@ -1,44 +1,34 @@
-import React from "react";
-import blogsData from "./data.json";
+import blogsData from './data.json';
+import BlogCard from '../../../components/blogsCard/BlogsCards';
+import Wrapper from '../../../components/Wrapper';
 
 const BlogSection = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-12 text-center">
-      <h2 className="text-3xl font-bold text-gray-900">{blogsData.title}</h2>
-      <p className="text-gray-600 mt-4">{blogsData.description}</p>
-
-      <div className="grid md:grid-cols-3 gap-6 mt-8">
-        {blogsData.blogs.map((blog) => (
-          <div
-            key={blog.id}
-            className="bg-white rounded-lg shadow-md overflow-hidden"
-          >
-            <img
-              src={blog.image}
-              alt={blog.title}
-              className="w-full h-52 object-cover"
-            />
-            <div className="p-4 text-left">
-              <span className="text-sm text-gray-500">
-                {blog.date} • {blog.category}
-              </span>
-              <h3 className="text-lg font-semibold mt-2">{blog.title}</h3>
-              <p className="text-gray-600 text-sm mt-1">{blog.description}</p>
-              <a
-                href="#"
-                className="text-blue-600 font-medium mt-2 inline-block"
-              >
-                Read More →
-              </a>
-            </div>
+    <div className='mx-auto '>
+      <Wrapper>
+        <div className='lg:py-[120px] text-centre py-[48px] '>
+          <div className='text-center max-w-[683px] mx-auto '>
+            <p className='lg:text-[32px] lg:leading-[40.8px] text-[24px] leading-[30px] lg:font-normal font-medium font-lora text-[#212121]'>
+              {blogsData.title}
+            </p>
+            <p className='lg:text-[18px] lg:leading-[27.5px] text-[14px] leading-[21px] font-normal font-poppins text-[#707070]'>
+              {blogsData.description}
+            </p>
           </div>
-        ))}
-      </div>
 
-      <button className="mt-6 px-6 py-2 text-white bg-blue-600 rounded-full">
-        View All
-      </button>
-    </section>
+          <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-6 mt-8'>
+            {blogsData.blogs.map((blog) => (
+              <BlogCard key={blog.id} {...blog} />
+            ))}
+          </div>
+        </div>
+        <div className='flex justify-center '>
+          <button className='lg:px-[20px] lg:py-[13px] py-[12px]  px-[20px] bg-[#FFECEC] text-[#3A3A3A] font-Poppins lg:text-[16px] text-[14px] lg:leading-[24px] leading-[20px]  rounded-[10px] '>
+            View More
+          </button>
+        </div>
+      </Wrapper>
+    </div>
   );
 };
 

@@ -6,7 +6,7 @@ const HolisticGrowth = () => {
   return (
     <div className='  mx-auto bg-[#FFF8F8]'>
       <Wrapper>
-        <div className='lg:py-[120px] py-[48px]'>
+        <div className='lg:pt-[120px] pt-[48px]'>
           <div className='text-center '>
             <p className='lg:text-[32px] lg:leading-[40.8px] text-[24px] leading-[30px] lg:font-normal font-medium font-lora    text-[#212121]'>
               Service for Holistic Growth
@@ -25,7 +25,7 @@ const HolisticGrowth = () => {
           </div>
         </div>
         <div className='flex justify-center '>
-          <button className='lg:px-[20px] lg:py-[13px] py-[12px]  px-[20px] bg-[#FFECEC] text-[#3A3A3A] font-Poppins lg:text-[16px] text-[14px] lg:leading-[24px] leading-[20px]  rounded-[10px] '>
+          <button className='lg:px-[16px] lg:py-[13px] py-[12px]  px-[20px] bg-[#FFECEC] text-[#3A3A3A] font-Poppins lg:text-[16px] text-[14px] lg:leading-[24px] leading-[20px]  rounded-[10px] '>
             View More
           </button>
         </div>

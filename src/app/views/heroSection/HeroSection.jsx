@@ -62,7 +62,7 @@ const Hero = () => {
 
       <div className="flex flex-col items-center justify-center text-center  ] ">
         <div className="flex flex-col items-center justify-center text-center  max-w-[880px]  ">
-          <p className="lg:text-[60px] lg:leading-[76.8px] text-[24px] leading-[30px]  font-semibold  text-[#212121]">
+          <p className="lg:text-[60px] lg:leading-[76.8px] text-[24px] leading-[30px] font-lora font-semibold  text-[#212121]">
             Every child shines bright in the spotlight of learning
           </p>
           <p className="lg:text-[19px] lg:leading-[28.5px] text-[`2px] leading-[18px]  font-normal font-poopins text-[#424242]  bg-[#FFFFFF] lg:px-[20px] px-[16px]  py-[10px]">
@@ -87,7 +87,7 @@ const Hero = () => {
               <HeroCard
                 key={index}
                 {...card}
-                className="justify-center max-w-[320px] shadow-md lg:rounded-[32px] rounded-[16px]  bg-[#FFFFFF] flex-shrink-0"
+                className="justify-center max-w-[320px] shadow-md lg:rounded-[32px] rounded-[16px] shadow-custom-dark bg-[#FFFFFF] flex-shrink-0"
               />
             ))}
           </div>

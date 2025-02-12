@@ -40,7 +40,7 @@ const GallerySection = () => {
     <section className="flex flex-col items-center py-[120px]">
       <Wrapper>
         <div className="text-center max-w-[683px] mx-auto">
-          <p className="lg:text-[32px] lg:leading-[40.8px] text-[24px] leading-[30px] lg:font-normal font-medium font-lora text-[#212121]">
+          <p className="lg:text-[46px] lg:leading-[58.8px] text-[24px] leading-[30px] lg:font-normal font-medium font-lora text-[#212121]">
             See our Gallery
           </p>
           <p className="lg:text-[18px] lg:leading-[27.5px] text-[14px] leading-[21px] font-normal font-poppins text-[#707070]">

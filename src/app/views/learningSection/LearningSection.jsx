@@ -20,7 +20,7 @@ const LearningSection = () => {
           </div>
 
           <div className='w-full flex flex-col items-start justify-start gap-[36px] p-[20px] max-w-[452px]'>
-            <p className='lg:text-[46px] lg:leading-[58px] text-[24px] leading-[30px] font-semibold lg:font-normal font-lora text-[#212121]'>
+            <p className='lg:text-[46px] lg:leading-[58px] text-[24px] leading-[30px] font-semibold lg:font-medium font-lora text-[#212121]'>
               {learningData.title}
             </p>
             <div>

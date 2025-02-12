@@ -11,10 +11,10 @@ const EventsSection = () => {
         <div className="lg:py-[120px] text-centre py-[48px] ">
           
         <div className="text-center max-w-[683px] mx-auto">
-            <p className="lg:text-[32px] lg:leading-[40.8px] text-[24px] leading-[30px] lg:font-normal font-medium font-lora text-[#212121]">
+            <p className="lg:text-[46px] lg:leading-[58.8px] text-[24px] leading-[30px] font-semibold lg:font-medium font-lora text-[#121212]">
               Our events
             </p>
-            <p className="lg:text-[18px] lg:leading-[27.5px] text-[14px] leading-[21px] font-normal font-poppins text-[#707070]">
+            <p className="lg:text-[18px] lg:leading-[27.5px] text-[14px] leading-[20px] lg:font-medium font-normal font-poppins text-[#707070]">
               Pirate ipsum arrgh bounty warp jack. Main shrouds round jack sink dock arr line gaff tea. Arr tea rum crimp gold yer jib sloop jib. Spanish anchor road furl.
             </p>
           </div>

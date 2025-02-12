@@ -17,11 +17,11 @@ const WhyTinyTribe = () => {
 
           <div className='space-y-[20px] lg:py-[65px]  '>
             {data.map((item, index) => (
-              <div key={index} className='border border-[#DBE7ED] bg-[#FFF8F8]  px-[40px] py-[24px] rounded-[12px]  '>
-                <div className='flex items-center justify-between w-full text-left text-[16px] lg:text-[18px] font-semibold  text-[#212121] font-poppins '>
+              <div key={index} className='border border-[#DBE7ED] bg-[#FFF8F8]  lg:px-[40px] lg:py-[24px]  p-[16px] rounded-[12px]  '>
+                <div className='flex items-center justify-between w-full text-left text-[20px] lg:text-[28px] font-semibold lg:font-medium leading-[25px]  text-[#212121] font-poppins '>
                   <span>+ {item.title}</span>
                 </div>
-                <p className='text-[#858585] text-[14px] lg:text-[16px] mt-2 font-abeezee'>{item.content}</p>
+                <p className='text-[#858585] text-[14px] lg:text-[20px] leading-[26px] font-medium lg:font-normal mt-2 '>{item.content}</p>
               </div>
             ))}
           </div>

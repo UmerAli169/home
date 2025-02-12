@@ -9,7 +9,7 @@ const Features = () => {
       <Wrapper>
         <div className='flex flex-col items-center    '>
           <div className='flex flex-col items-center justify-center text-center   max-w-[702px]  '>
-            <p className='  lg:text-[32px] lg:leading-[40.8px] text-[24px] leading-[30px] font-lora lg:font-normal font-medium text-[#212121] text-center'>
+            <p className='  lg:text-[32px] lg:leading-[40.8px] text-[24px] leading-[30px] font-lora font-semibold lg:font-medium text-[#212121] text-center'>
               We foster curiosity and cultivate a love for learning in children
             </p>
           </div>

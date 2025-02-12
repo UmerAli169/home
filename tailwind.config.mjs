@@ -12,7 +12,8 @@ export default {
         lora: ["Lora", "serif"],
       },
       dropShadow: {
-        'custom': '40px 0px 90px #FF66660F',      },
+        'custom': '40px 0px 90px #FF66660F',
+        'custom-dark': '0px 4px 30.1px 0px #00000017',      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

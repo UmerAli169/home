@@ -10,7 +10,7 @@ const BlogSection = () => {
           <p className='lg:text-[46px] lg:leading-[58.8px] text-[24px] leading-[30px] font-semibold lg:font-medium font-lora text-[#212121]'>
             {blogsData.title}
           </p>
-          <p className='lg:text-[18px] lg:leading-[27.5px] text-[14px] leading-[20px] font-normal font-poppins text-[#707070]'>
+          <p className='lg:text-[18px] lg:leading-[27.5px] text-[14px] leading-[20px] font-normal lg:font-medium font-poppins text-[#707070]'>
             {blogsData.description}
           </p>
         </div>

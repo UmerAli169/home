@@ -7,7 +7,7 @@ const HeroCard = ({ icon, title, description, className = '' }) => {
         <img src={icon} alt={title} className="w-[40px] h-[40px]" />
       </div>
       <div className=" flex flex-col items-start justify-start">
-        <p className="lg:text-[24px] lg:leading-[30px] text-[16px] leading-[30px] font-medium text-[#232323]">
+        <p className="lg:text-[24px] lg:leading-[30px] text-[16px] leading-[30px] font-poppins lg:font-medium font-bold text-[#232323]">
           {title}
         </p>
         <p className="lg:text-[14px] text-left lg:leading-[21px] text-[12px] leading-[18px] font-normal text-[#9AA0A6]">

@@ -6,7 +6,7 @@ const ContactForm = () => {
       <Wrapper>
         <div className='flex flex-col lg:flex-row items-center lg:items-start gap-8 py-[74px] '>
           <div className='hidden lg:block w-1/2'>
-            <img src='/form/form.png' alt='Kids Playing' className='w-[482px] h-[645px] rounded-lg' />
+            <img src='/form/form.png' alt='Kids Playing' className='max-w-[482px] w-full 2xl:max-w-[645px] h-[645px] rounded-lg ' />
           </div>
 
           <div className='w-full lg:w-1/2'>

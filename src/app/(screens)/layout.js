@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable}flex flex-col min-h-screen max-w-[1440px] mx-auto w-full  `}
+        className={`${geistSans.variable} ${geistMono.variable}flex flex-col min-h-screen max-w-[2440px] mx-auto w-full  `}
         >
            <Navbar/>
            <main className="flex-grow  antialiased ">{children}</main>

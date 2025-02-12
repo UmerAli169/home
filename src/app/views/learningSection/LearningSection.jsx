@@ -6,20 +6,20 @@ import Wrapper from '../../../components/Wrapper';
 const LearningSection = () => {
   return (
     <Wrapper>
-      <section className='lg:py-[120px] py-[48px] flex justify-center items-center'>
-        <div className='flex flex-col lg:flex-row   items-center sm:items-start   '>
-          <div className='hidden max-w-[379px] lg:flex flex-col gap-2 w-full lg:w-1/3 '>
+     
+        <div className=' lg:py-[120px] py-[48px] flex   flex-col lg:flex-row justify-center sm:justify-around   items-center lg:items-start   '>
+          <div className='hidden  lg:flex flex-col gap-2  '>
             {learningData.images.map((image, index) => (
               <img
                 key={index}
                 src={image}
                 alt={`Image ${index + 1}`}
-                className='rounded-[32px] w-full h-full object-cover'
+                className='rounded-[32px] w-full max-w-[379px] 2xl:max-w-[579px] h-full object-cover'
               />
             ))}
           </div>
 
-          <div className='w-full flex flex-col items-start justify-start gap-[36px] p-[20px] max-w-[452px]'>
+          <div className='w-full flex flex-col items-start justify-start gap-[36px] p-[20px] lg:max-w-[452px] 2xl:max-w-[579px]'>
             <p className='lg:text-[46px] lg:leading-[58px] text-[24px] leading-[30px] font-semibold lg:font-medium font-lora text-[#212121]'>
               {learningData.title}
             </p>
@@ -37,7 +37,7 @@ const LearningSection = () => {
             </div>
           </div>
 
-          <div className='w-full lg:w-[322px] lg:h-[231px] sm:max-w-[322px] flex flex-col gap-6  '>
+          <div className='w-full mt-0 lg:mt-[152px] lg:w-[322px] lg:h-[231px] lg:max-w-[322px] 2xl:max-w-[579px] flex flex-col gap-6  '>
             <div className='bg-[#E1F6FF] px-[24px] py-[23px] rounded-[32px] shadow-md'>
               <p className='text-[18px] text-[#212121] leading-[20.6px] font-medium mb-2'>Next Class</p>
               <div className='flex flex-col gap-2'>
@@ -61,12 +61,11 @@ const LearningSection = () => {
               <img
                 src={learningData.mapImage}
                 alt='Location Map'
-                className='lg:w-[272px] lg:h-[340px] rounded-lg object-cover'
+                className='lg:w-[272px] w-full mt-[17px] h-[440px] lg:h-[272px] rounded-lg object-cover'
               />
             </div>
           </div>
         </div>
-      </section>
     </Wrapper>
   );
 };

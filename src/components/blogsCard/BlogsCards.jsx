@@ -1,24 +1,29 @@
 const BlogCard = ({ title, description, image, category, date }) => {
-    return (
-      <div className="bg-white rounded-lg w-full">
-        <img src={image} alt={title} className="w-full h-52 object-cover" />
-        <div className="p-4 text-left">
-          <span className="text-sm text-gray-500">
-            {date} • {category}
-          </span>
-          <h3 className="text-lg font-semibold mt-2 font-lora text-[#212121]">
-            {title}
-          </h3>
-          <p className="text-gray-600 text-sm mt-1 font-poppins">{description}</p>
-          <div className="flex justify-end">
-            <a href="#" className="text-[#FF6666] font-medium mt-2 inline-block">
-              Read More →
-            </a>
-          </div>
-        </div>
+  return (
+    <div className='bg-[#FFFFFF] rounded-lg w-full'>
+      <img src={image} alt={title} className='w-full h-52 object-cover lg:rounded-[24px]  rounded-[12px]' />
+
+      <div className='flex justify-between text-[12px] font-normal text-[#5C5A5D]'>
+        <span className='flex items-center gap-x-1'>
+          <img src='/svg/blog/cylinder.svg' alt='' className='w-4 h-4' />
+          {date}
+        </span>
+        <span>{category}</span>
       </div>
-    );
-  };
-  
-  export default BlogCard;
-  
+
+      <p className='lg:text-[24px] lg:leading-[36px] text-[20px] leading-[25px] lg:font-medium	 font-semibold  lg:font-Poppins font-Lora text-[#212121]'>
+        {title}
+      </p>
+      <p className='text-[#858585] lg:text-[18px] lg:leading-[27px]  leading-[21px] font-poppins lg:font-medium font-normal'>
+        {description}
+      </p>
+      <div className='flex justify-end'>
+        <a href='#' className='text-[#FF6666] font-[15px] font-[Poppins]  leading-[22.5px] font-normal inline-block'>
+          Read More →
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default BlogCard;

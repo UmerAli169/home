@@ -14,7 +14,7 @@ import InstagramSection from "../views/instagramSection/InstagramSection";
 function page() {
   return (
     <div>
-      {/* <HeroSection />
+      <HeroSection />
       <Features />
       <HolisticGrowth />
       <LearningSection />
@@ -24,7 +24,7 @@ function page() {
       <GallerySection />
       <ContactForm />
       <WhyTinyTribe />
-      <InstagramSection /> */}
+      <InstagramSection />
     </div>
   );
 }

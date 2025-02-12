@@ -3,42 +3,42 @@
     "title": "Tiny explorers club",
     "description": "A fun club for young kids to explore, play, and learn ",
     "ageRange": "2-3",
-    "duration": "1-2 hours",
-    "image": "/ActivityCard/1.png"
+    "duration": "10  childerns",
+    "image": "/ActivityCard/3.png"
   },
   {
     "title": "Artistic sprouts studio",
     "description": "A creative space for kids to explore, create",
     "ageRange": "2-3",
-    "duration": "1.5 hours",
-    "image": "/ActivityCard/1.png"
+    "duration": "10  childerns",
+    "image": "/ActivityCard/3.png"
   },
   {
     "title": "Curiosity corner",
     "description": "A lively area where kids explore, question, and learn",
     "ageRange": "2-3",
-    "duration": "1.5 hours",
+    "duration": "10  childerns",
     "image": "/ActivityCard/3.png"
   },
   {
     "title": "Family connect session",
     "description": "A fun club for young kids to explore, play, and learn ",
     "ageRange": "2-3",
-    "duration": "1 hour",
+    "duration": "10  childerns",
     "image": "/ActivityCard/4.png"
   },
   {
     "title": "Artistic sprouts studio",
     "description": "A creative space for kids to explore, create",
     "ageRange": "2-3",
-    "duration": "1 hour",
+    "duration": "10  childerns",
     "image": "/ActivityCard/4.png"
   },
   {
     "title": "Health heroes",
     "description": "A lively area where kids explore, question, and learn",
     "ageRange": "2-3",
-    "duration": "1.5 hours",
+    "duration": "10  childerns",
     "image": "/ActivityCard/6.png"
   }
 ]

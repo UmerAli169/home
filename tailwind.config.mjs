@@ -11,6 +11,8 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         lora: ["Lora", "serif"],
       },
+      dropShadow: {
+        'custom': '40px 0px 90px #FF66660F',      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

@@ -37,7 +37,7 @@ const Hero = () => {
   }, []);
   return (
     <section className=" relative max-h-[791px] h-full flex flex-col   text-center py-[38px] bg-[#FFF7F7] overflow-hidden font-lora">
-      <div>
+      {/* <div>
         <img
           src="/svg/herosection/girtsPic.svg"
           alt="Girl"
@@ -58,9 +58,9 @@ const Hero = () => {
           alt="Arrow"
           className="absolute right-[520px] top-[327px] w-[183.01px] h-[196px]"
         />
-      </div>
+      </div> */}
 
-      <div className="flex flex-col items-center justify-center text-center  ] overflow-hidden">
+      <div className="flex flex-col items-center justify-center text-center  ] ">
         <div className="flex flex-col items-center justify-center text-center  max-w-[880px]  ">
           <p className="lg:text-[60px] lg:leading-[76.8px] text-[24px] leading-[30px]  font-semibold  text-[#212121]">
             Every child shines bright in the spotlight of learning

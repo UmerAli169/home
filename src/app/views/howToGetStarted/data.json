@@ -13,21 +13,21 @@
       "id": "02",
       "title": "Click on",
       "description": "Click on the 'Get Started' button.",
-      "icon": "/icons/click.svg",
+      "icon": "/svg/howTogetStart/2.svg",
       "color": "red"
     },
     {
       "id": "03",
       "title": "Click Confirm",
       "description": "Confirm your selection.",
-      "icon": "/icons/confirm.svg",
+      "icon": "/svg/howTogetStart/3.svg",
       "color": "green"
     },
     {
       "id": "04",
       "title": "Wait",
       "description": "Wait for the app to open and enter your details.",
-      "icon": "/icons/wait.svg",
+      "icon": "/svg/howTogetStart/4.svg",
       "color": "gray"
     }
   ]

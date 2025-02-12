@@ -15,13 +15,13 @@ const WhyTinyTribe = () => {
             go
           </p>
 
-          <div className='space-y-1 lg:py-[65px] py-[25px] '>
+          <div className='space-y-[20px] lg:py-[65px]  '>
             {data.map((item, index) => (
-              <div key={index} className='border-b pb-2 bg-[#FFF8F8]  p-[25px] '>
-                <div className='flex items-center justify-between w-full text-left text-[16px] lg:text-[18px] font-semibold  text-black font-poppins '>
+              <div key={index} className='border border-[#DBE7ED] bg-[#FFF8F8]  px-[40px] py-[24px] rounded-[12px]  '>
+                <div className='flex items-center justify-between w-full text-left text-[16px] lg:text-[18px] font-semibold  text-[#212121] font-poppins '>
                   <span>+ {item.title}</span>
                 </div>
-                <p className='text-gray-600 text-[14px] lg:text-[16px] mt-2 font-abeezee'>{item.content}</p>
+                <p className='text-[#858585] text-[14px] lg:text-[16px] mt-2 font-abeezee'>{item.content}</p>
               </div>
             ))}
           </div>

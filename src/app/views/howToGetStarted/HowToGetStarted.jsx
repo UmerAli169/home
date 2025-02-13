@@ -96,7 +96,7 @@ const HowToGetStarted = () => {
             </div>
 
             <div className='flex  lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]  sm:w-full  sm:h-full lg:max-h-[356px]  sm:justify-end'>
-              <div className='text-end  '>
+              <div className='text-end lg:px-[13px] sm:px-[13px] '>
                 <p className='lg:text-[32px] text-[20px] lg:leading-[48px] leading-[25px] lg:font-poppins font-medium text-[#212121] font-lora'>
                   04 Click on
                 </p>

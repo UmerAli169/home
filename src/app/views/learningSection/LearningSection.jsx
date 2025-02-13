@@ -37,7 +37,7 @@ const LearningSection = () => {
             </div>
           </div>
 
-          <div className='w-full mt-[30px] md:mt-[62px] lg:w-[322px] lg:h-[231px] lg:max-w-[322px] 2xl:max-w-[579px] flex flex-col gap-6  '>
+          <div className='w-full mt-[30px] md:mt-[62px] lg:mt-[-12px] xl:mt-[130px] lg:w-[302px] lg:h-[201px] lg:max-w-[322px] 2xl:max-w-[579px] flex flex-col gap-6  '>
             <div className='bg-[#E1F6FF] px-[24px] py-[23px] rounded-[32px] shadow-md'>
               <p className='text-[18px] text-[#212121] leading-[20.6px] font-medium mb-2'>Next Class</p>
               <div className='flex flex-col gap-2'>
@@ -61,7 +61,7 @@ const LearningSection = () => {
               <img
                 src={learningData.mapImage}
                 alt='Location Map'
-                className='lg:w-[272px] w-full mt-[17px] h-[340px] lg:h-[272px] rounded-lg object-cover'
+                className='lg:w-[272px] w-full mt-[17px] h-[340px] lg:h-[222px] rounded-lg object-cover'
               />
             </div>
           </div>

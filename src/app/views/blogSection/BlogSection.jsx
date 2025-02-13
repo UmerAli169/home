@@ -4,9 +4,9 @@ import Wrapper from '../../../components/Wrapper';
 
 const BlogSection = () => {
   return (
-    <div className='mx-auto lg:py-[100px] py-[40px]  '>
+    <div className='mx-auto lg:py-[100px]   '>
       <Wrapper>
-        <div className='text-center max-w-[683px] mx-auto  text-centre py-10'>
+        <div className='text-center max-w-[683px] mx-auto  text-centre pt-10'>
           <p className='lg:text-[46px] lg:leading-[58.8px] text-[24px] leading-[30px] font-semibold lg:font-medium font-lora text-[#212121]'>
             {blogsData.title}
           </p>

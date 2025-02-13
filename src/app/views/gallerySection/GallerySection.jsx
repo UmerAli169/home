@@ -37,8 +37,7 @@ import Wrapper from "../../../components/Wrapper";
 
 const GallerySection = () => {
   return (
-    <section className="flex flex-col items-center py-[120px]">
-      <Wrapper>
+    <section className="flex flex-col items-center  pt-[48px] ">
         <div className="text-center max-w-[683px] mx-auto">
           <p className="lg:text-[46px] lg:leading-[58.8px] text-[24px] leading-[30px] lg:font-normal font-medium font-lora text-[#212121]">
             See our Gallery
@@ -48,8 +47,9 @@ const GallerySection = () => {
             dock arr line gaff tea. Arr tea rum crimp go{" "}
           </p>
         </div>
+      <Wrapper>
 
-        <div className="grid gap-4 max-w-full mx-auto">
+        <div className="grid gap-4 max-w-full mx-auto py-[24px]">
           <div className="grid grid-cols-[1.5fr_1fr_0.5fr] gap-4">
             <div className="rounded-lg overflow-hidden">
               <img src={imagesData.images[0]} alt="Gallery Image 1" className="w-full h-full object-cover" />

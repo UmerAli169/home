@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <div className='bg-[#FFF8F8]  rounded-lg'>
       <Wrapper>
-        <div className='flex flex-col lg:flex-row items-center lg:items-start gap-8 py-[74px] '>
+        <div className='flex flex-col lg:flex-row items-center lg:items-start gap-8 py-[48px] '>
           <div className='hidden lg:block w-1/2'>
             <img src='/form/form.png' alt='Kids Playing' className='max-w-[482px] w-full 2xl:max-w-[645px] h-[645px] rounded-lg ' />
           </div>
@@ -17,7 +17,7 @@ const ContactForm = () => {
               We nurture curiosity, fuel young imaginations, and build skills to turn dreams into realities.
             </p>
 
-            <form className='space-y-4 py-[40px]'>
+            <form className='space-y-4 '>
               <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                 <input
                   placeholder='Name'

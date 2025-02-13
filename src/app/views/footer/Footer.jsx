@@ -13,7 +13,7 @@ const Footer = () => {
       <Wrapper>
         <div className='relative z-10 py-[35px] flex flex-wrap items-center justify-between gap-4'>
           <div className='flex items-center space-x-3'>
-            <img src='/svg/footer/tinytribe.svg' alt='Tiny Tribe Logo' className='lg:h-[84px] h-[42px] ' />
+            <img src='/svg/footer/tinytribe.svg' alt='Tiny Tribe Logo' className='lg:max-w-[457px] max-w-[225px] ' />
           </div>
 
           <div className='w-full sm:w-auto flex flex-col gap-1'>

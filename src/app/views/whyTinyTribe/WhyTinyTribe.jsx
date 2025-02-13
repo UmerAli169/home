@@ -6,7 +6,7 @@ const WhyTinyTribe = () => {
   return (
     <div className='w-full  '>
       <Wrapper>
-        <div className=' py-[60px] w-full mx-auto  rounded-lg bg-white '>
+        <div className=' py-[48px] w-full mx-auto  rounded-lg bg-white '>
           <p className='text-center text-[24px] lg:text-[35px] lg:leading-[44px] leading-[30px] lg:font-medium  font-semibold font-lora text-[#121212]'>
             Why tiny tribe is for me
           </p>

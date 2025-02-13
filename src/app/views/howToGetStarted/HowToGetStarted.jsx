@@ -36,9 +36,9 @@ const HowToGetStarted = () => {
             /> */}
           </div>
 
-          <div className='flex md:justify-between   min-h-[375px] items-center mt-8 flex-wrap  '>
-            <div className='flex  lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px] sm:w-full sm:h-full lg:max-h-[356px] sm:justify-start'>
-              <div className='relative'>
+          <div className='flex md:justify-between  mycontainer   min-h-[375px] items-center mt-8 flex-wrap  '>
+            <div className='flex mycontainer lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px] w-full sm:h-full lg:max-h-[356px] sm:justify-start'>
+              <div className='relative '>
                 <img src='/svg/howTogetStart/1.svg' alt='Open site' className='mx-auto' />
                 <img
                   src='/svg/howTogetStart/arrow/a.svg'
@@ -56,7 +56,7 @@ const HowToGetStarted = () => {
               </div>
             </div>
 
-            <div className='flex  lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]   sm:w-full sm:h-full lg:max-h-[356px] sm:justify-end'>
+            <div className='flex  mycontainer lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]   sm:w-full sm:h-full lg:max-h-[356px] sm:justify-end'>
               <div className='lg:text-centre  text-start sm:px-[13px] md:mt-[50px]'>
                 <p className='lg:text-[32px] text-[20px] lg:leading-[48px] leading-[25px] lg:font-poppins font-medium text-[#212121] font-lora'>
                   02 Click on
@@ -76,7 +76,7 @@ const HowToGetStarted = () => {
               </div>
             </div>
 
-            <div className='flex  lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]  sm:w-full sm:h-full lg:max-h-[356px] sm:justify-start'>
+            <div className='flex  mycontainer lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]  sm:w-full sm:h-full lg:max-h-[356px] sm:justify-start'>
               <div className='relative'>
                 <img src='/svg/howTogetStart/3.svg' alt='Open site' className='mx-auto' />
                 <img
@@ -95,7 +95,7 @@ const HowToGetStarted = () => {
               </div>
             </div>
 
-            <div className='flex  lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]  sm:w-full  sm:h-full lg:max-h-[356px]  sm:justify-end'>
+            <div className='flex  mycontainer lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]  sm:w-full  sm:h-full lg:max-h-[356px]  sm:justify-end'>
               <div className='text-end lg:px-[13px] sm:px-[13px] '>
                 <p className='lg:text-[32px] text-[20px] lg:leading-[48px] leading-[25px] lg:font-poppins font-medium text-[#212121] font-lora'>
                   04 Click on

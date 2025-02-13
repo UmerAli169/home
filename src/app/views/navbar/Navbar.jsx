@@ -4,6 +4,7 @@ import { Menu, X } from 'lucide-react';
 import Button from '../../../components/shared/Button';
 import MenuItem from '../../../components/navbar/MenuItems';
 import data from './data.json';
+import Wrapper from '../../../components/Wrapper';
 
 const Navbar = () => {
   const [menuItems, setMenuItems] = useState([]);
@@ -14,7 +15,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className='flex items-center justify-between py-3  bg-[#FFFCFC] lg:px-[100px]'>
+    <Wrapper>
+
+    <header className='flex items-center justify-between py-3  bg-[#FFFCFC] '>
       <button className='md:hidden' onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <X size={28} /> : <img src='/svg/navbar/handburger.svg' alt='Logo' />}
       </button>
@@ -47,6 +50,7 @@ const Navbar = () => {
         </div>
       )}
     </header>
+      </Wrapper>
   );
 };
 

@@ -49,7 +49,7 @@ const GallerySection = () => {
           </p>
         </div>
 
-        <div className="grid gap-4 max-w-5xl mx-auto">
+        <div className="grid gap-4 max-w-full mx-auto">
           <div className="grid grid-cols-[1.5fr_1fr_0.5fr] gap-4">
             <div className="rounded-lg overflow-hidden">
               <img src={imagesData.images[0]} alt="Gallery Image 1" className="w-full h-full object-cover" />

@@ -84,12 +84,12 @@ const Hero = () => {
             <img
               src='/svg/herosection/arrow.svg'
               alt='Arrow'
-              className='hidden lg:inline-block w-[183.01px] absolute bottom-[-40px] z-2 right-[30px]'
+              className='hidden lg:inline-block w-[183.01px] absolute bottom-[-90px] z-2 right-[30px]'
             />
           </div>
         </div>
 
-        <div className='w-full relative  overflow-hidden '>
+        <div className='w-full relative  overflow-hidden  md:pt-[50px]'>
           <div ref={sliderRef} className='flex gap-4 px-4 lg:px-0 overflow-x-auto pb-5 no-scrollbar w-full'>
             {[...heroData.cards, ...heroData.cards].map((card, index) => (
               <HeroCard

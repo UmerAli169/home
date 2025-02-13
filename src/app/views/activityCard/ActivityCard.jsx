@@ -4,7 +4,7 @@ import Wrapper from '../../../components/Wrapper';
 
 const HolisticGrowth = () => {
   return (
-    <div className='  mx-auto bg-[#FFF8F8]'>
+    <div className='  mx-auto bg-[#FFF8F8] clip-path-wave'>
       <Wrapper>
         <div className='lg:pt-[120px] pt-[48px]'>
           <div className='text-center '>

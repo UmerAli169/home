@@ -37,7 +37,28 @@
 }
 
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE & Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
 }
 
+.clip-path-wave {
+  clip-path: ellipse(100% 100% at 50% 100%);
+}
+
+@media (max-width: 640px) {  
+  .clip-path-wave {
+    clip-path: ellipse(199% 100% at 50% 100%);
+  }
+}
+
+@media (max-width: 768px) { 
+  .clip-path-wave {
+    clip-path: ellipse(199% 100% at 50% 100%);
+  }
+}
+
+@media (max-width: 1024px) {  
+  .clip-path-wave {
+    clip-path: ellipse(199% 100% at 50% 100%);
+  }
+}

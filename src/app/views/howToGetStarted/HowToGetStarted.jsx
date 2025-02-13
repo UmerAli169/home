@@ -36,16 +36,18 @@ const HowToGetStarted = () => {
             /> */}
           </div>
 
-          <div className='flex justify-between   min-h-[375px] items-center mt-8 flex-wrap  '>
-            {/* Step 1 */}
-            <div className='flex flex-col justify-between items-center max-w-[216px] max-h-[356px] '>
+          <div className='flex md:justify-between   min-h-[375px] items-center mt-8 flex-wrap  '>
+            <div className='flex  lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px] sm:w-full sm:h-full lg:max-h-[356px] sm:justify-start'>
               <div className='relative'>
                 <img src='/svg/howTogetStart/1.svg' alt='Open site' className='mx-auto' />
-                <img src='/svg/howTogetStart/arrow/a.svg' alt='Open site' className='absolute rotate-[-20deg] min-w-[182px]  hidden lg:block  top-[120%] left-[155%] translate-x-[-50%] translate-y-[-50%]' />
-
+                <img
+                  src='/svg/howTogetStart/arrow/a.svg'
+                  alt='Open site'
+                  className='absolute rotate-[-20deg] min-w-[182px]  hidden lg:block  top-[120%] left-[155%] translate-x-[-50%] translate-y-[-50%]'
+                />
               </div>
-              <div className='text-center md:mt-[50px]'>
-                <p className='lg:text-[32px] text-[20px] lg:leading-[48px] leading-[25px] lg:font-poppins font-medium text-[#212121] font-lora' >
+              <div className='lg:text-centre text-start sm:px-[13px] md:mt-[50px]'>
+                <p className='lg:text-[32px] text-[20px] lg:leading-[48px] leading-[25px] lg:font-poppins font-medium text-[#212121] font-lora'>
                   01 Open site
                 </p>
                 <p className='lg:text-[16px] text-[14px] lg:font-semibold font-normal text-[#858585] lg:leading-[24px] leading-[20px] font-poppins'>
@@ -54,9 +56,8 @@ const HowToGetStarted = () => {
               </div>
             </div>
 
-            {/* Step 2 */}
-            <div className='flex flex-col justify-between items-center text-center max-w-[216px] max-h-[356px] '>
-              <div>
+            <div className='flex  lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]   sm:w-full sm:h-full lg:max-h-[356px] sm:justify-end'>
+              <div className='lg:text-centre  text-start sm:px-[13px] md:mt-[50px]'>
                 <p className='lg:text-[32px] text-[20px] lg:leading-[48px] leading-[25px] lg:font-poppins font-medium text-[#212121] font-lora'>
                   02 Click on
                 </p>
@@ -64,44 +65,47 @@ const HowToGetStarted = () => {
                   Click on the Enroll now button
                 </p>
               </div>
-              <div className='relative text-center md:mt-[50px]'>
-              <img src='/svg/howTogetStart/arrow/b.svg' alt='Open site' className='   absolute rotate-[10deg] min-w-[202px] hidden lg:block  top-[30%] left-[170%] translate-x-[-50%] translate-y-[-50%]' />
+              <div className='relative text-center lg::mt-[50px]'>
+                <img
+                  src='/svg/howTogetStart/arrow/b.svg'
+                  alt='Open site'
+                  className='   absolute rotate-[10deg] min-w-[202px] hidden lg:block  top-[30%] left-[170%] translate-x-[-50%] translate-y-[-50%]'
+                />
 
-
-              <img src='/svg/howTogetStart/2.svg' alt='Click on' className='mx-auto' />
+                <img src='/svg/howTogetStart/2.svg' alt='Click on' className='mx-auto' />
               </div>
             </div>
 
-            {/* Step 3 */}
-            <div className='flex flex-col justify-between items-center max-w-[216px] max-h-[356px] '>
+            <div className='flex  lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]  sm:w-full sm:h-full lg:max-h-[356px] sm:justify-start'>
               <div className='relative'>
                 <img src='/svg/howTogetStart/3.svg' alt='Open site' className='mx-auto' />
-                <img src='/svg/howTogetStart/arrow/c.svg' alt='Open site' className='absolute rotate-[-16deg]  min-w-[222px]  hidden lg:block  top-[129%] left-[145%] translate-x-[-50%] translate-y-[-50%]' />
-
+                <img
+                  src='/svg/howTogetStart/arrow/c.svg'
+                  alt='Open site'
+                  className='absolute rotate-[-16deg]  min-w-[222px]  hidden lg:block  top-[129%] left-[145%] translate-x-[-50%] translate-y-[-50%]'
+                />
               </div>
-              <div className='text-center md:mt-[50px]'>
+              <div className='text-start lg:px-[13px] sm:px-[13px] lg:mt-[50px]'>
                 <p className='lg:text-[32px] text-[20px] lg:leading-[48px] leading-[25px] lg:font-poppins font-medium text-[#212121] font-lora'>
                   03 Open site
                 </p>
                 <p className='lg:text-[16px] text-[14px] lg:font-semibold font-normal text-[#858585] lg:leading-[24px] leading-[20px] font-poppins'>
-                Click on the confirm button
+                  Click on the confirm button
                 </p>
               </div>
             </div>
 
-            {/* Step 4 */}
-            <div className='flex flex-col justify-between items-center text-center max-w-[216px] max-h-[356px] '>
-              <div>
+            <div className='flex  lg:flex-col sm:flex-row lg:justify-between items-center lg:max-w-[216px]  sm:w-full  sm:h-full lg:max-h-[356px]  sm:justify-end'>
+              <div className='text-end  '>
                 <p className='lg:text-[32px] text-[20px] lg:leading-[48px] leading-[25px] lg:font-poppins font-medium text-[#212121] font-lora'>
                   04 Click on
                 </p>
                 <p className='lg:text-[16px] text-[14px] lg:font-semibold font-normal text-[#858585] lg:leading-[24px] leading-[20px] font-poppins'>
-                Wait for the opening WhatsApp and leave your personal information                </p>
+                  Wait for the opening WhatsApp and leave your personal information{' '}
+                </p>
               </div>
               <div className='text-center md:mt-[50px]'>
-
-
-              <img src='/svg/howTogetStart/4.svg' alt='Click on' className='mx-auto' />
+                <img src='/svg/howTogetStart/4.svg' alt='Click on' className='mx-auto' />
               </div>
             </div>
           </div>

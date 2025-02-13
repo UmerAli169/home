@@ -89,8 +89,8 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className='w-full relative z-3 overflow-hidden'>
-          <div ref={sliderRef} className='flex gap-4 px-4 lg:px-0 overflow-x-auto no-scrollbar w-full'>
+        <div className='w-full relative  overflow-hidden '>
+          <div ref={sliderRef} className='flex gap-4 px-4 lg:px-0 overflow-x-auto py-5 no-scrollbar w-full'>
             {[...heroData.cards, ...heroData.cards].map((card, index) => (
               <HeroCard
                 key={index}

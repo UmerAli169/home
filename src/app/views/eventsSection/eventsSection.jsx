@@ -18,7 +18,7 @@ const EventsSection = () => {
               Pirate ipsum arrgh bounty warp jack. Main shrouds round jack sink dock arr line gaff tea. Arr tea rum crimp gold yer jib sloop jib. Spanish anchor road furl.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(380px,1fr))] gap-6 lg:py-[40px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[repeat(auto-fit,minmax(380px,1fr))] gap-6 lg:py-[40px] py-[25px] ">
           {eventsData.events.map((event, index) => (
               <EventCard key={index} {...event} />
             ))}

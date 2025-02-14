@@ -1,9 +1,9 @@
 const BlogCard = ({ title, description, image, category, date }) => {
   return (
-    <div className='bg-[#FFFFFF] rounded-lg w-full'>
+    <div className='bg-[#FFFFFF] w-full'>
       <img src={image} alt={title} className='w-full h-52 2xl:h-80 object-cover lg:rounded-[24px]  rounded-[12px]' />
 
-      <div className='flex justify-between text-[12px] font-normal text-[#5C5A5D]'>
+      <div className='flex justify-between text-[12px] pt-4 font-normal text-[#5C5A5D]'>
         <span className='flex items-center gap-x-1'>
           <img src='/svg/blog/cylinder.svg' alt='' className='w-4 h-4' />
           {date}

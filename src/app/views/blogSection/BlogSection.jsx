@@ -15,7 +15,7 @@ const BlogSection = () => {
           </p>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  lg:py-[40px] py-[24px] '>
           {blogsData.blogs.map((blog) => (
             <BlogCard key={blog.id} {...blog} />
           ))}

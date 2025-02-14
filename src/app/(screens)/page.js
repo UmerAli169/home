@@ -14,17 +14,17 @@ import InstagramSection from "../views/instagramSection/InstagramSection";
 function page() {
   return (
     <div>
-      {/* <HeroSection />
+      <HeroSection />
       <Features />
       <HolisticGrowth />
       <LearningSection />
-      <EventsSection /> */}
+      <EventsSection />
       <HowToGetStarted />
-      {/* <BlogSection />
+      <BlogSection />
       <GallerySection />
       <ContactForm />
       <WhyTinyTribe />
-      <InstagramSection /> */}
+      <InstagramSection />
     </div>
   );
 }

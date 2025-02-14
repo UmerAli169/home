@@ -7,8 +7,8 @@ const LearningSection = () => {
   return (
     <Wrapper>
      
-        <div className=' lg:py-[120px] py-[48px] flex   flex-col lg:flex-row justify-center sm:justify-around   items-center lg:items-start   '>
-          <div className='hidden  lg:flex flex-col gap-2  '>
+        <div className=' lg:py-[120px] py-[48px] flex   flex-col lg:flex-row justify-center sm:justify-between   items-center lg:items-start   '>
+          <div className='hidden  xl:flex flex-col gap-2  '>
             {learningData.images.map((image, index) => (
               <img
                 key={index}
@@ -19,11 +19,11 @@ const LearningSection = () => {
             ))}
           </div>
 
-          <div className='w-full flex flex-col items-start justify-start lg:max-w-[452px] 2xl:max-w-[579px] md:px-[32px] '>
+          <div className='w-full flex flex-col items-start justify-start lg:max-w-[452px] 2xl:max-w-[579px] md:px-[32px]  '>
             <p className='lg:text-[46px] lg:leading-[58px] text-[24px] leading-[30px]   font-semibold lg:font-medium font-lora text-[#212121]'>
               {learningData.title}
             </p>
-            <div>
+            <div className='lg:pt-[40px] pt-[20px]'>
               <p className='  lg:text-[18px] lg:leading-[27px] text-[14px] leading-[21px] font-poppins   font-normal lg:font-medium text-[#858585] '>
                 {learningData.description}
               </p>

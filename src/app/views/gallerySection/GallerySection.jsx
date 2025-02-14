@@ -16,7 +16,7 @@
 //         </div>
 //         <div className="grid grid-cols-3 gap-4 max-w-4xl mx-auto">
 //           {imagesData.images.map((src, index) => (
-//             <div key={index} className="overflow-hidden rounded-lg ">
+//             <div key={index} className="overflow-hidden rounded-[12px] ">
 //               <img
 //                 src={src}
 //                 alt={`Gallery Image ${index + 1}`}
@@ -51,25 +51,25 @@ const GallerySection = () => {
 
         <div className="grid gap-4 max-w-full mx-auto py-[24px]">
           <div className="grid grid-cols-[1.5fr_1fr_0.5fr] gap-4">
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-[12px] overflow-hidden">
               <img src={imagesData.images[0]} alt="Gallery Image 1" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-[12px] overflow-hidden">
               <img src={imagesData.images[1]} alt="Gallery Image 2" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-[12px] overflow-hidden">
               <img src={imagesData.images[2]} alt="Gallery Image 3" className="w-full h-full object-cover" />
             </div>
           </div>
 
           <div className="grid grid-cols-3 gap-4">
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-[12px] overflow-hidden">
               <img src={imagesData.images[3]} alt="Gallery Image 4" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-[12px] overflow-hidden">
               <img src={imagesData.images[4]} alt="Gallery Image 5" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-lg overflow-hidden">
+            <div className="rounded-[12px] overflow-hidden">
               <img src={imagesData.images[5]} alt="Gallery Image 6" className="w-full h-full object-cover" />
             </div>
           </div>

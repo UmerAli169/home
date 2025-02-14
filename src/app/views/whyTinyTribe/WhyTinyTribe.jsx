@@ -6,7 +6,7 @@ const WhyTinyTribe = () => {
   return (
     <div className='w-full  '>
       <Wrapper>
-        <div className=' py-[48px] w-full mx-auto  rounded-lg bg-white '>
+        <div className=' py-[48px] w-full mx-auto   bg-[#FFFFFF] '>
           <p className='text-center text-[24px] lg:text-[35px] lg:leading-[44px] leading-[30px] lg:font-medium  font-semibold font-lora text-[#121212]'>
             Why tiny tribe is for me
           </p>
@@ -15,7 +15,7 @@ const WhyTinyTribe = () => {
             go
           </p>
 
-          <div className='space-y-[20px] lg:py-[65px]  '>
+          <div className='space-y-[20px] lg:py-[65px] pt-[30px]  '>
             {data.map((item, index) => (
               <div key={index} className='border border-[#DBE7ED] bg-[#FFF8F8]  lg:px-[40px] lg:py-[24px]  p-[16px] rounded-[12px]  '>
                 <div className='flex items-center justify-between w-full text-left text-[20px] lg:text-[28px] font-semibold lg:font-medium leading-[25px]  text-[#212121] font-poppins '>

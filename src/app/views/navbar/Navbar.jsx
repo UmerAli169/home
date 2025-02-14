@@ -16,41 +16,44 @@ const Navbar = () => {
 
   return (
     <Wrapper>
+      <header className='flex items-center justify-between py-3  bg-[#FFFCFC] '>
+        <button className='md:hidden' onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? <X size={28} /> : <img src='/svg/navbar/handburger.svg' alt='Logo' />}
+        </button>
 
-    <header className='flex items-center justify-between py-3  bg-[#FFFCFC] '>
-      <button className='md:hidden' onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? <X size={28} /> : <img src='/svg/navbar/handburger.svg' alt='Logo' />}
-      </button>
+        <div className='absolute left-1/2 transform -translate-x-1/2 md:static md:translate-x-0 flex items-center space-x-3'>
+          <img src='/svg/navbar/tinytribe.svg' alt='Logo' />
+          <p className='text-2xl font-bold'>tiny tribe</p>
+        </div>
 
-      <div className='absolute left-1/2 transform -translate-x-1/2 md:static md:translate-x-0 flex items-center space-x-3'>
-        <img src='/svg/navbar/tinytribe.svg' alt='Logo' />
-        <p className='text-2xl font-bold'>tiny tribe</p>
-      </div>
-
-      <nav className='hidden md:flex items-center justify-center flex-grow'>
-        <ul className='flex space-x-6'>
-          {menuItems.map((item) => (
-            <MenuItem key={item.label} label={item.label} enabled={item.enabled} />
-          ))}
-        </ul>
-      </nav>
-
-      <div className='hidden md:block'>
-        <Button text='Enroll now' className='bg-[#FF6666] text-[#FFFFFF] px-4 py-2' />
-      </div>
-
-      {isOpen && (
-        <div className='absolute top-16 left-0 w-full bg-white shadow-lg p-4 md:hidden'>
-          <ul className='flex flex-col space-y-4'>
+        <nav className='hidden md:flex items-center justify-center flex-grow'>
+          <ul className='flex space-x-6'>
             {menuItems.map((item) => (
               <MenuItem key={item.label} label={item.label} enabled={item.enabled} />
             ))}
           </ul>
-          <Button text='Enroll now' className='bg-[#FF6666] text-[#FFFFFF] ' />
+        </nav>
+
+        <div className='hidden md:block'>
+          <Button text='Enroll now' className='bg-[#FF6666] text-[#FFFFFF] px-4 py-2' />
         </div>
-      )}
-    </header>
-      </Wrapper>
+
+        {isOpen && (
+          <div className='absolute top-16 left-0 w-full bg-white shadow-lg p-4 md:hidden z-50 '>
+            <ul className='flex flex-col space-y-4'>
+              <ul className='flex flex-col space-y-4'>
+                {menuItems.map((item, index) => (
+                  <MenuItem key={item.label} label={item.label} index={index} totalItems={menuItems.length} />
+                ))}
+              </ul>
+            </ul>
+            <div className='pt-[32px]'>
+              <Button text='Enroll now' className='bg-[#FF6666] text-[#FFFFFF] w-full ' />
+            </div>
+          </div>
+        )}
+      </header>
+    </Wrapper>
   );
 };
 

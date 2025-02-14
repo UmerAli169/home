@@ -5,7 +5,7 @@ import features from './data.json';
 
 const Features = () => {
   return (
-    <section className='flex flex-col items-center  py-[120px] '>
+    <section className='flex flex-col items-center  lg:py-[120px] py-[48px] '>
       <Wrapper>
         <div className='flex flex-col items-center    '>
           <div className='flex flex-col items-center justify-center text-center   max-w-[702px]  '>

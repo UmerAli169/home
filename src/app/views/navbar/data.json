@@ -15,6 +15,10 @@
     {
       "label": "Contact",
       "enabled": false
+    },
+    {
+      "label": "Login",
+      "enabled": true
     }
   ]
 }

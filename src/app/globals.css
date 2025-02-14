@@ -62,3 +62,37 @@
     clip-path: ellipse(199% 100% at 50% 100%);
   }
 }
+
+
+@media (max-width: 1535px) and (min-width: 1280px){
+  .custom-arrow {
+    width:  120px;
+    top: 120%;
+    left: 120%;
+   
+   
+  }
+  .custom-arrowb {
+    width:  150px;
+    top: 30%;
+    left: 150%;
+   
+   
+  }
+}
+
+@media (max-width: 2656px) and (min-width: 1535px) {
+  .custom-arrow {
+    width:  550px;
+    top: 120%;
+    left: 160%;
+    
+  }
+  .custom-arrowb {
+    width:  200px;
+    top: 30%;
+    left: 170%;
+   
+   
+  }
+}

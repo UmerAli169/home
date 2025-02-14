@@ -6,7 +6,10 @@ const EventCard = ({ title, description, image, tag }) => {
       <div className='w-full h-48'>
         <img src={image} alt={title} className='lg:rounded-[24px] rounded-[12px] w-full h-full object-cover' />
       </div>
-      <Button variant='tertiary'>{tag}</Button>
+      <div className='pt-[12px]'>
+
+      <Button variant='tertiary' >{tag}</Button>
+      </div>
       <p className='lg:text-[24px] lg:leading-[36px] text-[20px] leading-[25px] lg:font-medium  font-semibold font-lora text-[#212121]'>
         {title}
       </p>
